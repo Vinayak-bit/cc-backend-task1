@@ -8,7 +8,7 @@ def datetime_to_unixtimestamp(date, time):
     datetime_obj = datetime.strptime(datetime, '%d/%m/%Y %H:%M:%S')
     timestamp = datetime_obj.timestamp()
     return timestamp
-
+ 
 satellite = ArgumentParser(
     prog='python3 satellite.py',
     description="A command for getting location, in latitude and longitude or country code and zone, at real-time or "
